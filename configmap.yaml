@@ -5,4 +5,3 @@ metadata:
 data:
   player_initial_values: "3"
   ui_properties_file_name: "user-interface.properties"
-  
