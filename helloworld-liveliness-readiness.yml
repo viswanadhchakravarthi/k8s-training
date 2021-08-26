@@ -9,8 +9,8 @@ spec:
       app: helloworld
   template:
     metadata:
-     labels:
-       app: helloworld
+      labels:
+        app: helloworld
     spec:
       containers:
       - name: k8s-demo
@@ -22,14 +22,11 @@ spec:
           httpGet:
             path: /
             port: nodejs-port
-          intialDelaySeconds: 15
+          initialDelaySeconds: 15
           timeoutSeconds: 30
         readinessProbe:
           httpGet:
             path: /
             port: nodejs-port
-          intialDelaySeconds: 15
+          initialDelaySeconds: 15
           timeoutSeconds: 30
-          
-            
-            
